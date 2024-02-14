@@ -1,0 +1,20 @@
+.nosotros .contenido {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+}
+
+@media (min-width: 768px) {
+    .nosotros .contenido {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+.contenido div p {
+    text-align: justify;
+}
+
+    .contenido div p:first-of-type {
+    margin-top: 0;
+}
